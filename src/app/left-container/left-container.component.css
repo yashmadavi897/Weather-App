@@ -1,0 +1,134 @@
+.left-container{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.left-container-nav-bar{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+flex: 2;
+text-align: right;
+margin-right: 5px;
+padding-right: 10px;
+
+
+}
+.search-tab{
+flex: 4;
+}
+
+.location{
+flex: 2;
+text-align: center;
+}
+ .search-tab input{
+    border: none;
+    padding: 5px;
+    padding-left: 40px;
+    font-size: 12;
+    font-weight: bold;
+    
+
+ }
+ /* css for left container data box*/
+.left-container-data-box{
+    flex: 12;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+   
+}
+
+ /* temp data img and value  and day time */
+.left-container-temp-data{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.left-container-temp-img{
+    flex: 2;
+}
+.left-container-temp-img img{
+   height: 230px;
+   width: 230px;
+   
+}
+
+.left-container-temp-value{
+ flex: 1;
+ font-size: 62px;
+ font-weight: normal;
+}
+.left-container-temp-value sup{
+    position: relative;
+    font-size: 36px;
+    margin-top: 4px;
+   
+
+}
+.left-container-temp-day-time{
+ flex: 1;
+font-weight: 500;
+ color: black;
+}
+
+.divinding-line{
+    height: 1px;
+    width: 100%;
+    background-color: #fefefe;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* temp data summary, rain value , location details and img */
+.left-container-other-data{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container-temp-summary{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.left-container-temp-summary-phrase-img{
+    margin-right: 8px;
+}
+.left-container-rain-stats{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+}
+.left-container-rain-stats-img{
+    margin-right: 8px;
+}
+
+
+
+.left-container-location-details{
+   text-align: center;
+    flex: 3;
+}
+
+.left-container-location-img img{
+    width: 250px;
+    height: 90px;
+    border-radius: 20px;
+}
+.left-container-location-name{
+    margin-top: -60px;
+    color: #fefefe;
+    font-size: large;
+    font-weight: bold;
+}
